@@ -65,6 +65,7 @@ fi
 cp -a .atom/. ~/.atom/
 
 # Create Symlinks
-sudo ln -s .vimrc ~/.vimrc
-sudo ln -s .zshrc ~/.zshrc
+rm ~/.zshrc
+sudo ln -s $PWD/.zshrc ~/.zshrc
+sudo ln -s $PWD/.vimrc ~/.vimrc
 
