@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Julia
 alias ctraj="cd ~/.julia/dev/TrajectoryOptimization"
+export PATH=$HOME/Software/julia-1.3.0/bin:$PATH
 
 # Edit this file
 alias vz="vi ~/.zshrc"
