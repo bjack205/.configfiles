@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/bjack205/.oh-my-zsh"
+  export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -100,37 +100,16 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Julia
-export PATH="/home/bjack205/Software/julia/julia-1.2.0/bin:$PATH"
-
-export SNOPT="/home/bjack205/Software/snopt"
-export GUROBI_HOME="/home/bjack205/Software/gurobi801/linux64"
-export PATH="$GUROBI_HOME/bin:$PATH"
-export LD_LIBRARY_PATH="$GUROBI_HOME/lib:$LD_LIBRARY_PATH"
-export CPLEX_STUDIO_BINARIES="/opt/ibm/ILOG/CPLEX_Studio128/cplex/bin/x86-64_linux"
-export PATH="$CPLEX_STUDIO_BINARIES:$PATH"
-export LD_LIBRARY_PATH="$CPLEX_STUDIO_BINARIES:$LD_LIBRARY_PATH"
-
-alias ctraj="cd /home/bjack205/.julia/dev/TrajectoryOptimization"
-alias julia-0.6="/home/bjack205/Software/julia/julia-0.6.4/bin/julia"
-alias julia-0.7="/home/bjack205/Software/julia/julia-0.7.0/bin/julia"
-alias julia-1.0="/home/bjack205/Software/julia/julia-1.0.3/bin/julia"
+alias ctraj="cd ~/.julia/dev/TrajectoryOptimization"
 
 # Edit this file
 alias vz="vi ~/.zshrc"
 alias ez="emacs ~/.zshrc"
 alias sz="source ~/.zshrc"
 
-# LaTeX
-# export MANPATH="/usr/local/texlive/2019/texmf-dist/doc/man:$MANPATH"   # Not needed
-# export INFOPATH="/usr/local/texlive/2019/texmf-dist/doc/man:$INFOPATH" # Not needed
-export PATH="/usr/local/texlive/2019/bin/x86_64-linux:$PATH"
-
 # Ruby
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
-
-# Conda
-# export PATH=$HOME/.julia/conda/3/bin:$PATH
 
 # Other
 alias grep="grep -P"
