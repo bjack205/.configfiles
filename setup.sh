@@ -18,7 +18,7 @@ sudo apt-get install hdf5-tools -y
 sudo apt-get install hdfview -y
 sudo apt-get install ffmpeg -y
 sudo apt-get install libeigen3-dev -y
-
+sudo apt-get install gnome-tweak-tools -y
 
 echo "Install Python (y/n)?"
 read check_install
