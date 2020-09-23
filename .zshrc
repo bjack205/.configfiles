@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Julia
-export PATH="/home/bjack205/Software/julia/julia-1.2.0/bin:$PATH"
+export PATH="/home/bjack205/Software/julia/julia-1.4.2/bin:$PATH"
 
 export SNOPT="/home/bjack205/Software/snopt"
 export GUROBI_HOME="/home/bjack205/Software/gurobi801/linux64"
@@ -114,6 +114,8 @@ alias ctraj="cd /home/bjack205/.julia/dev/TrajectoryOptimization"
 alias julia-0.6="/home/bjack205/Software/julia/julia-0.6.4/bin/julia"
 alias julia-0.7="/home/bjack205/Software/julia/julia-0.7.0/bin/julia"
 alias julia-1.0="/home/bjack205/Software/julia/julia-1.0.3/bin/julia"
+
+alias cdev="/home/bjack205/.julia/dev"
 
 # Edit this file
 alias vz="vi ~/.zshrc"
@@ -140,3 +142,18 @@ alias apngasm="/home/bjack205/Software/apng/apngasm"
 export SNOPT_LICENSE="/home/licenses/snopt7.lic"
 export SNOPT_HOME="/home/bjack205/Software/snopt77"
 export LD_LIBRARY_PATH="$SNOPT_HOME:$LD_LIBRARY_PATH" 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/bjack205/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/bjack205/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/bjack205/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/bjack205/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
