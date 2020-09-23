@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/bjack205/.oh-my-zsh"
+  export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -122,17 +122,9 @@ alias vz="vi ~/.zshrc"
 alias ez="emacs ~/.zshrc"
 alias sz="source ~/.zshrc"
 
-# LaTeX
-# export MANPATH="/usr/local/texlive/2019/texmf-dist/doc/man:$MANPATH"   # Not needed
-# export INFOPATH="/usr/local/texlive/2019/texmf-dist/doc/man:$INFOPATH" # Not needed
-export PATH="/usr/local/texlive/2019/bin/x86_64-linux:$PATH"
-
 # Ruby
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
-
-# Conda
-# export PATH=$HOME/.julia/conda/3/bin:$PATH
 
 # Other
 alias grep="grep -P"

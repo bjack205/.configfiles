@@ -18,7 +18,7 @@ sudo apt-get install hdf5-tools -y
 sudo apt-get install hdfview -y
 sudo apt-get install ffmpeg -y
 sudo apt-get install libeigen3-dev -y
-
+sudo apt-get install gnome-tweak-tools -y
 
 echo "Install Python (y/n)?"
 read check_install
@@ -65,6 +65,7 @@ fi
 cp -a .atom/. ~/.atom/
 
 # Create Symlinks
-sudo ln -s .vimrc ~/.vimrc
-sudo ln -s .zshrc ~/.zshrc
+rm ~/.zshrc
+sudo ln -s $PWD/.zshrc ~/.zshrc
+sudo ln -s $PWD/.vimrc ~/.vimrc
 
