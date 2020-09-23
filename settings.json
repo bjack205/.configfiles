@@ -1,0 +1,26 @@
+{
+    "julia.enableTelemetry": true,
+    "julia.execution.resultType": "inline",
+    "keyboard.dispatch": "keyCode",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "diffEditor.renderSideBySide": false,
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "editor.rulers": [
+        92
+    ],
+    "window.zoomLevel": -1,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.inheritEnv": false,
+    "python.terminal.executeInFileDir": true
+}
