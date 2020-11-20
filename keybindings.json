@@ -91,5 +91,13 @@
     {
         "key": "ctrl+y ctrl+r",
         "command": "python.execInTerminal"
+    },
+    {
+        "key": "alt+.",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.focusPrevious"
     }
 ]

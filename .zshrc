@@ -15,8 +15,9 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Julia
-export PATH="$HOME/Software/julia-1.5.2/bin:$PATH"
+export PATH="$HOME/Software/julia-1.4.2/bin:$PATH"
 
+export MUJOCO_KEY_PATH="$HOME/mujoco200_linux/bin/mjkey.txt"
 export SNOPT="$HOME/Software/snopt"
 export GUROBI_HOME="$HOME/Software/gurobi801/linux64"
 export PATH="$GUROBI_HOME/bin:$PATH"
@@ -49,14 +50,14 @@ export LD_LIBRARY_PATH="$SNOPT_HOME:$LD_LIBRARY_PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/bjack205/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/brian/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/bjack205/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/bjack205/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/brian/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/brian/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/bjack205/anaconda3/bin:$PATH"
+        export PATH="/home/brian/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

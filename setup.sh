@@ -28,12 +28,6 @@ if [ $check_install = "y" ]; then
     gem install jekyll bundler
 fi
 
-# Copy Atom files 
-if [ ! -d "$HOME/.atom" ]; then
-    mkdir $HOME/.atom
-fi
-cp -a .atom/. ~/.atom/
-
 # Create Symlinks
 if [ ! -f "~/.zshrc" ]; then
     rm ~/.zshrc
