@@ -28,4 +28,6 @@
     "terminal.integrated.commandsToSkipShell": [
         "language-julia.interrupt"
     ],
+    "python.showStartPage": false,
+    "cmake.configureOnOpen": true,
 }

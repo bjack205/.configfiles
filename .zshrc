@@ -15,12 +15,16 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Julia
-export PATH="$HOME/Software/julia-1.4.2/bin:$PATH"
+export PATH="$HOME/Software/julia-1.5.4/bin:$PATH"
+
+# Rust
+export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library
 
 export MUJOCO_KEY_PATH="$HOME/mujoco200_linux/bin/mjkey.txt"
 export SNOPT="$HOME/Software/snopt"
 export GUROBI_HOME="$HOME/Software/gurobi801/linux64"
 export PATH="$GUROBI_HOME/bin:$PATH"
+export PYTHONPATH=$HOME/Code/mavlink
 export LD_LIBRARY_PATH="$GUROBI_HOME/lib:$LD_LIBRARY_PATH"
 export CPLEX_STUDIO_BINARIES="/opt/ibm/ILOG/CPLEX_Studio128/cplex/bin/x86-64_linux"
 export PATH="$CPLEX_STUDIO_BINARIES:$PATH"

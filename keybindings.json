@@ -99,5 +99,13 @@
     {
         "key": "ctrl+'",
         "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.decreaseViewSize"
     }
 ]
