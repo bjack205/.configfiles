@@ -15,10 +15,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Julia
-export PATH="$HOME/Software/julia-1.5.4/bin:$PATH"
+export PATH="$HOME/Software/julia-1.6.0/bin:$PATH"
 
 # Rust
-export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library
+# export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library
 
 export MUJOCO_KEY_PATH="$HOME/mujoco200_linux/bin/mjkey.txt"
 export SNOPT="$HOME/Software/snopt"
