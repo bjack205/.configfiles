@@ -14,6 +14,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# Arduino
+export PATH="$HOME/Software/bin:$PATH"
+
 # Julia
 export PATH="$HOME/Software/julia-1.6.0/bin:$PATH"
 

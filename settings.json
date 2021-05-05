@@ -2,7 +2,7 @@
     "julia.enableTelemetry": true,
     "julia.execution.resultType": "inline",
     "keyboard.dispatch": "keyCode",
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "git.confirmSync": false,
     "git.autofetch": true,
     "diffEditor.renderSideBySide": false,
@@ -21,13 +21,15 @@
     "window.zoomLevel": -1,
     "latex-workshop.view.pdf.viewer": "tab",
     "diffEditor.ignoreTrimWhitespace": false,
-    "terminal.integrated.inheritEnv": false,
     "python.terminal.executeInFileDir": true,
-    "workbench.iconTheme": "material-icon-theme",
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.commandsToSkipShell": [
         "language-julia.interrupt"
     ],
     "python.showStartPage": false,
     "cmake.configureOnOpen": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "arduino.path": "/home/brian/Software/arduino-1.8.13",
+    "arduino.additionalUrls": "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json",
 }
