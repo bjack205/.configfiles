@@ -32,4 +32,6 @@
     "terminal.integrated.shell.linux": "/bin/zsh",
     "arduino.path": "/home/brian/Software/arduino-1.8.13",
     "arduino.additionalUrls": "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json",
+    "C_Cpp.updateChannel": "Insiders",
+    "julia.symbolCacheDownload": true,
 }

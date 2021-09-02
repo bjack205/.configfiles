@@ -34,8 +34,10 @@ export PATH="$CPLEX_STUDIO_BINARIES:$PATH"
 export LD_LIBRARY_PATH="$CPLEX_STUDIO_BINARIES:$LD_LIBRARY_PATH"
 
 alias ctraj="cd ~/.julia/dev/TrajectoryOptimization"
-
 alias cdev="~/.julia/dev"
+
+# Copy github token
+alias cpat="xclip -sel c < ~/.tokens/github"
 
 # Edit this file
 alias vz="vi ~/.zshrc"

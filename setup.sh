@@ -13,6 +13,7 @@ sudo apt-get install hdfview -y
 sudo apt-get install ffmpeg -y
 sudo apt-get install libeigen3-dev -y
 sudo apt-get install gnome-tweaks -y
+sudo apt-get install xclip
 
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
