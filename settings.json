@@ -34,4 +34,7 @@
     "arduino.additionalUrls": "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json",
     "C_Cpp.updateChannel": "Insiders",
     "julia.symbolCacheDownload": true,
+    "[julia]": {
+        "editor.defaultFormatter": "singularitti.vscode-julia-formatter"
+    },
 }
