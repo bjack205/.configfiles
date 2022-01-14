@@ -8,6 +8,9 @@ sudo apt-get install curl -y
 sudo apt-get install cmake -y
 sudo apt-get install cmake-qt-gui -y
 sudo apt-get install ninja-build -y
+sudo apt-get install clang-13 -y
+sudo apt-get install clangd-13 -y
+sudo apt-get install gfortran-11 -y
 
 # More tools
 sudo apt-get install hdf5-tools -y
