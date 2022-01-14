@@ -2,7 +2,7 @@
     "julia.enableTelemetry": true,
     "julia.execution.resultType": "inline",
     "keyboard.dispatch": "keyCode",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Julia (Monokai Vibrant)",
     "git.confirmSync": false,
     "git.autofetch": true,
     "diffEditor.renderSideBySide": false,
@@ -18,7 +18,6 @@
     "editor.rulers": [
         92
     ],
-    "window.zoomLevel": -1,
     "latex-workshop.view.pdf.viewer": "tab",
     "diffEditor.ignoreTrimWhitespace": false,
     "python.terminal.executeInFileDir": true,
@@ -37,4 +36,6 @@
     "[julia]": {
         "editor.defaultFormatter": "singularitti.vscode-julia-formatter"
     },
+    "window.zoomLevel": -1,
+    "latex-workshop.latex.recipe.default": "lastUsed",
 }

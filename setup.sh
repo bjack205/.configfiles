@@ -6,6 +6,8 @@ sudo apt-get install emacs -y
 sudo apt-get install vim -y
 sudo apt-get install curl -y
 sudo apt-get install cmake -y
+sudo apt-get install cmake-qt-gui -y
+sudo apt-get install ninja-build -y
 
 # More tools
 sudo apt-get install hdf5-tools -y
@@ -14,6 +16,12 @@ sudo apt-get install ffmpeg -y
 sudo apt-get install libeigen3-dev -y
 sudo apt-get install gnome-tweaks -y
 sudo apt-get install xclip
+
+# Install GitHub CLI
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
 
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

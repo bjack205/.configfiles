@@ -54,5 +54,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Set default text width (for text wrapping)
+set textwidth=92
+
 set background=dark
 

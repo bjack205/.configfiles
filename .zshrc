@@ -18,10 +18,22 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/Software/bin:$PATH"
 
 # Julia
-export PATH="$HOME/Software/julia-1.6.0/bin:$PATH"
+export PATH="$HOME/Software/julia-1.7.1/bin:$PATH"
 
 # Rust
 # export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library
+
+# Pardiso
+export JULIA_PARDISO="$HOME/Software/pardiso-6.0"
+export PARDISO_LIC_PATH="$HOME/Software/pardiso-6.0"
+
+# HSL
+export HSL_MA97_PATH="$HOME/Software/hsl"
+export HSL_MA86_PATH="$HOME/Software/hsl"
+export COINHSL_PATH="$HOME/Software/hsl"
+
+# Intel MKL
+alias mklenv="source $HOME/intel/oneapi/setvars.sh"
 
 export MUJOCO_KEY_PATH="$HOME/mujoco200_linux/bin/mjkey.txt"
 export SNOPT="$HOME/Software/snopt"
@@ -71,3 +83,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"

@@ -140,5 +140,15 @@
     {
         "key": "ctrl+shift+alt+n",
         "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-language-julia.executeCodeBlockOrSelection",
+        "when": "editorLangId == 'juliamarkdown' || editorTextFocus && editorLangId == 'julia' && activeEditor != 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "language-julia.executeJuliaCodeInREPL",
+        "when": "editorLangId == 'juliamarkdown' || editorTextFocus && editorLangId == 'julia' && activeEditor != 'workbench.editor.notebook'"
     }
 ]
