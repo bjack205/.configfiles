@@ -13,15 +13,21 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+alias cleanbuild="cd .. && rm -rf build && take build"
+
+alias godot="$HOME/Software/Godot_v3.4.4-stable_x11.64"
 
 # Arduino
 export PATH="$HOME/Software/bin:$PATH"
+alias ard="arduino-cli"
 
 # Julia
 export PATH="$HOME/Software/julia-1.7.1/bin:$PATH"
+alias julia6="$HOME/Software/julia-1.6.5/bin/julia"
 
 # Rust
 # export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library
+source "$HOME/.cargo/env"
 
 # Pardiso
 export JULIA_PARDISO="$HOME/Software/pardiso-6.0"
@@ -31,6 +37,7 @@ export PARDISO_LIC_PATH="$HOME/Software/pardiso-6.0"
 export HSL_MA97_PATH="$HOME/Software/hsl"
 export HSL_MA86_PATH="$HOME/Software/hsl"
 export COINHSL_PATH="$HOME/Software/hsl"
+export HSL_COIN_PATH="$HOME/Software/hsl"
 
 # Intel MKL
 alias mklenv="source $HOME/intel/oneapi/setvars.sh"
@@ -55,6 +62,7 @@ alias cpat="xclip -sel c < ~/.tokens/github"
 alias vz="vi ~/.zshrc"
 alias ez="emacs ~/.zshrc"
 alias sz="source ~/.zshrc"
+alias vnvim="vi ~/.config/nvim/init.vim"
 
 # Ruby
 export GEM_HOME=$HOME/gems

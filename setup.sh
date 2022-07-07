@@ -16,12 +16,21 @@ sudo apt-get install ffmpeg -y
 sudo apt-get install libeigen3-dev -y
 sudo apt-get install gnome-tweaks -y
 sudo apt-get install xclip
+sudo apt-get install valgrind -y
+sudo apt-get install clang -y
+sudo apt-get install clang-tidy -y
+sudo apt-get install clang-format -y
+sudo apt-get install nodejs -y
+sudo apt-get install yarn -y
+sudo apt-get install ratbagd -y  # for piper mouse config
+snap install arduino-cli
 
 # Install GitHub CLI
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
 sudo apt update
 sudo apt install gh
+git config --global init.defaultBranch main
 
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
