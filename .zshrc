@@ -27,7 +27,7 @@ alias julia6="$HOME/Software/julia-1.6.5/bin/julia"
 
 # Rust
 # export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/library
-source "$HOME/.cargo/env"
+# source "$HOME/.cargo/env"
 
 # Pardiso
 export JULIA_PARDISO="$HOME/Software/pardiso-6.0"
@@ -77,20 +77,6 @@ export SNOPT_LICENSE="/home/licenses/snopt7.lic"
 export SNOPT_HOME="/home/bjack205/Software/snopt77"
 export LD_LIBRARY_PATH="$SNOPT_HOME:$LD_LIBRARY_PATH" 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/brian/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/brian/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/brian/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/brian/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
