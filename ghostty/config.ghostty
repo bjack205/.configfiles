@@ -1,0 +1,16 @@
+# Ghostty (macOS). Reference: https://ghostty.org/docs/config/reference
+
+# --- Clipboard over SSH + tmux --------------------------------------------
+# tmux on the remote (set-clipboard on) sends yanks as OSC 52 escape
+# sequences; these settings let Ghostty put them on the macOS clipboard.
+clipboard-write = allow
+# Remote programs reading the clipboard is rarer and riskier; prompt.
+clipboard-read = ask
+clipboard-trim-trailing-spaces = true
+# Selecting with the mouse outside tmux (or Shift+drag inside it) copies too.
+copy-on-select = clipboard
+
+# --- SSH ------------------------------------------------------------------
+# Install Ghostty's terminfo on hosts that lack it so TERM=xterm-ghostty works
+# (colors, keys, clipboard capability); fall back to xterm-256color if not.
+shell-integration-features = ssh-env,ssh-terminfo

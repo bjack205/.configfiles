@@ -1,0 +1,4 @@
+*.bak.*
+.gitconfig.local
+hosts.yml
+.zsh_history
