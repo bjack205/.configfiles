@@ -11,8 +11,9 @@ Shell, editor and tool configuration.
 | `mise/config.toml` | `~/.config/mise/config.toml` |
 | `gh/config.yml` | `~/.config/gh/config.yml` |
 | `ghostty/config.ghostty` | `~/.config/ghostty/config.ghostty` (macOS only) |
+| `legacy/` | Old Ubuntu setup (vim, Atom, VS Code); not installed |
 
-### Copying from remote tmux to the macOS clipboard
+## Copying from remote tmux to the macOS clipboard
 
 Ghostty on the Mac, `ssh` to the remote, tmux there. Yanking in tmux copy mode
 (mouse drag, or `prefix [` then `v` / `y`) sends the text back as an OSC 52
@@ -20,7 +21,6 @@ escape sequence, which Ghostty writes to the macOS clipboard. This needs
 `set-clipboard on` in `tmux/.tmux.conf.local` (remote side) and
 `clipboard-write = allow` in `ghostty/config.ghostty` (Mac side). Hold Shift
 while dragging to make a Ghostty selection that bypasses tmux.
-| `legacy/` | Old Ubuntu setup (vim, Atom, VS Code); not installed |
 
 ## Install
 
