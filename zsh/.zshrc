@@ -33,13 +33,8 @@ alias jtest="julia --project=. -e 'import Pkg; Pkg.test()'"
 alias vz="nvim ~/.zshrc"
 alias sz="source ~/.zshrc"
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # opencode
 export PATH=$HOME/.opencode/bin:$PATH
 
-# mise Node shims
+# mise shims (node, tree-sitter)
 export PATH="$HOME/.local/share/mise/shims:$PATH"

@@ -1,2 +1,4 @@
 [tools]
 node = "22"
+# tree-sitter CLI, needed by LazyVim's nvim-treesitter to build parsers
+tree-sitter = "latest"
