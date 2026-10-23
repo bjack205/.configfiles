@@ -26,10 +26,10 @@ while dragging to make a Ghostty selection that bypasses tmux.
 
 ```sh
 git clone git@github.com:bjack205/.configfiles.git ~/dotfiles
-~/dotfiles/install.sh
+~/dotfiles/setup.sh
 ```
 
-`install.sh` symlinks each file into place, moving anything already there to
+`setup.sh` symlinks each file into place, moving anything already there to
 `<file>.bak.<timestamp>`. Git `user.email` is kept per machine in
 `~/.gitconfig.local`, which the script creates on first run.
 
