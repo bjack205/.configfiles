@@ -29,7 +29,8 @@ git clone git@github.com:bjack205/.configfiles.git ~/dotfiles
 ~/dotfiles/setup.sh
 ```
 
-`setup.sh` symlinks each file into place, moving anything already there to
+`setup.sh` installs gh, lazygit and Claude Code (Homebrew on macOS, apt on
+Debian/Ubuntu), then symlinks each file into place, moving anything already there to
 `<file>.bak.<timestamp>`. Git `user.email` is kept per machine in
 `~/.gitconfig.local`, which the script creates on first run.
 

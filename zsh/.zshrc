@@ -14,6 +14,9 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# Homebrew (macOS; no-op elsewhere)
+[ -x /opt/homebrew/bin/brew ] && eval "$(/opt/homebrew/bin/brew shellenv)"
 alias cleanbuild="cd .. && rm -rf build && take build"
 alias lg=lazygit
 
